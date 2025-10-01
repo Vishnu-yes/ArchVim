@@ -1,68 +1,107 @@
-```
-# ArchVim
+---
 
-A preconfigured IDE for coders — just download and start coding.  
-Minimal, modular, and easy to manage with a simple file structure.  
-Comes with **GruvBox dark** and **Hard Material** theming for a comfortable experience.  
-Feel free to customize it, but please give credit.  
+🚀 ArchVim
 
-> ⚡ All configs were primarily written with the help of ChatGPT & Claude.
+Your Neovim, ready to code.
+Minimal. Fast. Fully configured. Just clone and start hacking.
+
+💡 Features GruvBox Dark & Hard Material themes, modern UI, and carefully curated plugins for productivity.
+Customize freely, but remember to give credit.
+
+> ⚡ Configs primarily crafted with a little help from ChatGPT & Claude.
+
+
+
 
 ---
 
-## Overview
+✨ Why ArchVim?
 
-**ArchVim** follows the Arch philosophy: *simple, powerful, and customizable*.  
+ArchVim embraces the Arch Linux philosophy: simple, powerful, and fully customizable.
 
-- Preconfigured **LSPs** and autocompletion  
-- Modern **UI enhancements**: statusline, bufferline, dashboard, notifications  
-- Built-in tools: **Telescope**, **Treesitter**, **Git integration**, **Sessions**, and more  
-- Designed for **clarity, speed, and extensibility**  
+✅ Preconfigured LSPs & autocompletion
+
+🖌 Modern UI enhancements: statusline, bufferline, dashboard, notifications
+
+🛠 Built-in tools: Telescope, Treesitter, Git integration, Sessions, and more
+
+⚡ Optimized for speed, clarity, and extensibility
+
+
 
 ---
-```
-## Installation
 
-Backup your current Neovim config (optional but recommended):
+🛠 Installation
 
+Step 1 — Backup your existing Neovim config (optional):
 ```bash
 mv ~/.config/nvim ~/.config/nvim.backup
 ```
-
-## Downloading/Cloning :
-
-Download & Open using:
+Step 2 — Clone ArchVim:
 ```bash
 git clone https://github.com/Vishnu-yes/ArchVim.git ~/.config/nvim
 nvim
 ```
+> ArchVim will automatically install plugins and set up your environment on first run.
+> However it will want Lsps to be installed in Linux/Terminal.
+
+
+
+
+---
+
+📂 Project Structure
 ```
-## Project's Core Structure
-
-
 ~/.config/nvim
-├── init.lua
-├── lazy-lock.json
+├── init.lua          # Entry point
+├── lazy-lock.json    # Plugin lockfile
 └── lua/user
-    ├── Basics/        # Core settings, keymaps, options, utilities
-    ├── UI/            # Statusline, bufferline, dashboard, git signs, notifications
-    ├── config/        # Plugin configs: LSP, Telescope, Treesitter, etc.
-    ├── Inbuilt/       # Internal Lua helpers
-    └── READ.MD        # Read Useful Stuffs here
+    ├── Basics/       # Keymaps, options, and utilities
+    ├── UI/           # Statusline, bufferline, dashboard, git signs, notifications
+    ├── config/       # Plugin configurations (LSP, Telescope, Treesitter)
+    ├── Inbuilt/      # Internal Lua helpers
+    └── READ.MD       # Documentation
 ```
 
-## Requirements :
-• Nvim 0.11.4+
-• Git (Optional as You can have to configure a little)
-• Nerd Font (Added Inside The Cloned files so You don't feel problems)
+---
 
-## License :
-ArchVim is released under the MIT Lisence 
+⚙️ Requirements
 
-## Purpose of Making :
-• To give better feel to low end devices, mid rnages to High ends
-• To give Super User Control
-• To give Command and Plugins Power
-• This Distro contains more very long leader
-• Leader's are mapped with space key and Local with " ' "
+Neovim ≥ 0.11.4
 
+Git (for cloning & updates)
+
+Nerd Font (included for convenience)
+
+
+
+---
+
+🎯 Purpose
+
+Provide a smooth experience across all devices
+
+Give users full control over their Neovim setup
+
+Enhance command and plugin workflows
+
+Extended leader key setup for faster navigation:
+
+Space for global
+
+' for local
+
+
+
+
+---
+
+📜 License
+
+Released under the MIT License.
+
+
+---
+
+<p align="center">Made with ❤️ and Lua</p>
+---
