@@ -1,49 +1,64 @@
----
+# 🚀 ArchVim
 
-🚀 ArchVim
+Your **pocket IDE** built on Neovim. Minimal, fast, fully configurable, and ready to code—whether on a full desktop or in Termux.
 
-Your Neovim, ready to code.
-Minimal. Fast. Fully configured. Just clone and start hacking.
-
-💡 Features GruvBox Dark & Hard Material themes, modern UI, and carefully curated plugins for productivity.
-Customize freely, but remember to give credit.
-
-> ⚡ Configs primarily crafted with a little help from ChatGPT & Claude.
-
-
-
+> ArchVim gives you almost all IDE functionality using just commands and the spacebar.
 
 ---
 
-✨ Why ArchVim?
+## ✨ Features
 
-ArchVim embraces the Arch Linux philosophy: simple, powerful, and fully customizable.
+- **Flexible Plugin Management**:  
+  Mason is installed by default, but the primary plugin manager is Lazy. Switch seamlessly between `:Mason` and `:Lazy`.
 
-✅ Preconfigured LSPs & autocompletion
+- **Lightweight**:  
+  Only ~6 MBs, optimized for speed and efficiency.
 
-🖌 Modern UI enhancements: statusline, bufferline, dashboard, notifications
+- **Preinstalled Nerd Fonts**:  
+  Beautiful icons and glyphs out of the box.
 
-🛠 Built-in tools: Telescope, Treesitter, Git integration, Sessions, and more
+- **Modern & Fancy UI**:  
+  Includes statusline, bufferline, dashboard, notifications, and more.
 
-⚡ Optimized for speed, clarity, and extensibility
+- **Default Hardcore Theme**:  
+  Gruvbox Dark Hard for an elegant, distraction-free coding experience.
 
+- **Full IDE Control**:  
+  Easily customize plugins or add almost any addon you desire.
 
+- **Cross-Platform**:  
+  Works smoothly even in Termux + Neovim—truly portable.
+
+- **LSP Support**:  
+  Lazy requires manual LSP downloads, but most common servers are preconfigured. Install them easily via shell commands.
 
 ---
 
-🛠 Installation
+## ⚡ Why ArchVim?
 
-Step 1 — Backup your existing Neovim config (optional):
+ArchVim embraces the **Arch Linux philosophy**: simple, powerful, and fully customizable.  
+
+- Preconfigured LSPs & autocompletion  
+- Modern UI enhancements: statusline, bufferline, dashboard, notifications  
+- Built-in tools: Telescope, Treesitter, Git integration, Sessions, and more  
+- Optimized for speed, clarity, and extensibility  
+
+---
+
+## 🛠 Installation
+
+**Step 1 — Backup existing Neovim config (optional):**
 ```bash
 mv ~/.config/nvim ~/.config/nvim.backup
-```
+
 Step 2 — Clone ArchVim:
-```bash
+
 git clone https://github.com/Vishnu-yes/ArchVim.git ~/.config/nvim
 nvim
 ```
-> ArchVim will automatically install plugins and set up your environment on first run.
-> However it will want Lsps to be installed in Linux/Terminal.
+
+> On first run, ArchVim will automatically install plugins and set up your environment.
+LSP servers may need to be installed manually depending on your system.
 
 
 
@@ -51,27 +66,28 @@ nvim
 ---
 
 📂 Project Structure
-```
+``` tree
 ~/.config/nvim
 ├── init.lua          # Entry point
 ├── lazy-lock.json    # Plugin lockfile
 └── lua/user
-    ├── Basics/       # Keymaps, options, and utilities
+    ├── Basics/       # Keymaps, options, utilities
     ├── UI/           # Statusline, bufferline, dashboard, git signs, notifications
     ├── config/       # Plugin configurations (LSP, Telescope, Treesitter)
     ├── Inbuilt/      # Internal Lua helpers
-    └── READ.MD       # Documentation
-```
+    ├── Fonts         # Pre-installed Nerd Fonts 
+    └── Read          # Documentation
 
+```
 ---
 
 ⚙️ Requirements
 
 Neovim ≥ 0.11.4
 
-Git (for cloning & updates)
+Git (for cloning and updates)
 
-Nerd Font (included for convenience)
+Nerd Font (preinstalled)
 
 
 
@@ -79,17 +95,17 @@ Nerd Font (included for convenience)
 
 🎯 Purpose
 
-Provide a smooth experience across all devices
+Provide a smooth, lightweight coding experience across devices
 
-Give users full control over their Neovim setup
+Give users full control of their Neovim setup
 
 Enhance command and plugin workflows
 
 Extended leader key setup for faster navigation:
 
-Space for global
+Space for global commands
 
-' for local
+' for local commands
 
 
 
@@ -104,4 +120,5 @@ Released under the MIT License.
 ---
 
 <p align="center">Made with ❤️ and Lua</p>
+```
 ---
