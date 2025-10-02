@@ -1,5 +1,10 @@
 # 🚀 ArchVim
 
+![ArchVim Logo](https://img.shields.io/badge/ArchVim-Neovim-blue?style=for-the-badge&logo=neovim)  
+![License](https://img.shields.io/badge/License-GPLv3-green?style=for-the-badge)  
+![Lua](https://img.shields.io/badge/Made%20with-Lua-FFDD00?style=for-the-badge&logo=lua)
+
+
 Your **pocket IDE** built on Neovim. Minimal, fast, fully configurable, and ready to code—whether on a full desktop or in Termux.
 
 > ArchVim gives you almost all IDE functionality using just commands and the spacebar.
@@ -114,11 +119,11 @@ Space for global commands
 
 📜 License
 
-Released under the MIT License.
+Released under the GPLv3 License.
 
 
 ---
 
 <p align="center">Made with ❤️ and Lua</p>
-```
+
 ---
