@@ -13,12 +13,19 @@ Your **pocket IDE** built on Neovim. Minimal, fast, fully configurable, and read
 
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ffb9a4d7-3d18-4563-b40f-9eab000d2e2c" width="400"/>
+  <img src="https://github.com/user-attachments/assets/3c0f8e00-9e38-416d-be12-980b40f60fc2" width="400"/>
+</p>
 
-![1000042244](https://github.com/user-attachments/assets/ffb9a4d7-3d18-4563-b40f-9eab000d2e2c)
-![1000042250](https://github.com/user-attachments/assets/3c0f8e00-9e38-416d-be12-980b40f60fc2)
-![1000042242](https://github.com/user-attachments/assets/ebcbf543-59bf-4ae3-b5e7-d3f398d367b7)
-![1000042247](https://github.com/user-attachments/assets/d293acb6-a31e-4555-889c-265066a10fd8)
-![1000042242](https://github.com/user-attachments/assets/f32262c0-6cbf-41a3-a650-5715c64a8a86)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ebcbf543-59bf-4ae3-b5e7-d3f398d367b7" width="400"/>
+  <img src="https://github.com/user-attachments/assets/d293acb6-a31e-4555-889c-265066a10fd8" width="400"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f32262c0-6cbf-41a3-a650-5715c64a8a86" width="500"/>
+</p>
 
 
 ---
