@@ -77,8 +77,8 @@ rm -rf ~/.config/nvim
 cd ~/.config
 mkdir -p nvim
 curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/raw/main/AV0.2.zip"
-unzip -o AV0.2.zip -d nvim
-rm AV0.2.zip
+unzip -o ArchVim.zip -d nvim
+rm ArchVim.zip
 ```
 
 > On first run, ArchVim will automatically install plugins and set up your environment.
