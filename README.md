@@ -24,7 +24,7 @@
 ## 🎯 What is ArchVim?
 
 ArchVim transforms Neovim into a complete IDE experience while maintaining the speed and elegance of a terminal-based editor. Inspired by the **Arch Linux philosophy**, ArchVim gives you full control without sacrificing convenience.
-
+> [!NOTE]
 > **"Almost all IDE functionality using just commands and the spacebar."**
 
 Whether you're coding on a desktop workstation or a mobile device via Termux, ArchVim delivers a consistent, powerful development environment that fits in your pocket.
@@ -128,7 +128,8 @@ rm ArchVim_v0.3.1.zip
 # Launch Neovim
 nvim
 ```
-> [!IMPORTANT] : Make sure that the Release or ArchVim.zip version must match your desired and avilable version.  
+> [!IMPORTANT]
+> Make sure that the Release or ArchVim.zip version must match your desired and avilable version.  
 
 ### First Launch
 
@@ -138,7 +139,8 @@ On first startup, ArchVim will:
 3. ✅ Configure Mason for LSP installation
 4. ⚠️ Require manual LSP server installation (see below)
 
-> **Note**: First launch may take 1-2 minutes depending on your system and internet connection. On lower-end devices, Neovim may appear frozen—this is normal. Just wait for plugin installation to complete.
+> [!IMPORTANT]
+> First launch may take 1-2 minutes depending on your system and internet connection. On lower-end devices, Neovim may appear frozen—this is normal. Just wait for plugin installation to complete.
 
 ### Installing LSP Servers
 
@@ -154,6 +156,10 @@ Then select and install servers like:
 - `typescript-language-server` (JavaScript/TypeScript)
 - `rust-analyzer` (Rust)
 - `clangd` (C/C++)
+
+> [IMPORTANT]
+> If Mason says device unsupported on specific things , then go for your System Binaries
+> E.g Clang/Clangd for Aarch/Arm 64 
 
 ---
 
@@ -238,7 +244,7 @@ ArchVim uses an extended leader key system:
 | `]c` | Next hunk |
 
 </details>
-
+> [!IMPORTANT]
 > Full keymap reference available in `lua/user/Basics/keymaps.lua`
 
 ---
@@ -247,12 +253,16 @@ ArchVim uses an extended leader key system:
 
 ### Changing Theme
 
-Edit `lua/user/config/colorscheme.lua`:
+Edit `user/UI/theme.lua`:
 
 ```lua
 -- Available themes: gruvbox, tokyonight, catppuccin, nord, etc.
 vim.cmd("colorscheme gruvbox")
 ```
+> [!NOTE]
+> Total themes are around 68
+> You will have 68 Themes automatically on download
+
 
 ### Adding Plugins
 
@@ -349,7 +359,8 @@ zip -r ~/ArchVim.zip ./*
    - Clear description of changes
    - Why the change is needed
    - Testing performed
-
+     
+> [!IMPORTANT]
 > **Please contact the maintainer before submitting major changes to discuss the approach.**
 
 ---
