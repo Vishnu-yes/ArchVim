@@ -72,7 +72,7 @@ rm -rf ~/.config/nvim
 ```
 
 **Step 2 — Clone ArchVim:**
-
+> This is basic (depreciated)
 ```bash
 cd ~/.config
 mkdir -p nvim
@@ -80,6 +80,22 @@ curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/raw/main/AV0.2.zip
 unzip -o ArchVim.zip -d nvim
 rm ArchVim.zip
 ```
+
+**Download Latest Realease
+```bash
+cd ~/.config
+mkdir -p nvim
+
+# Download the latest release and save it as ArchVim.zip
+curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3/ArchVim.zip"
+
+# Unzip to nvim config folder
+unzip -o ArchVim.zip -d nvim
+
+# Remove the zip file
+rm ArchVim.zip
+```
+
 
 > On first run, ArchVim will automatically install plugins and set up your environment.
 LSP servers may need to be installed manually depending on your system.
