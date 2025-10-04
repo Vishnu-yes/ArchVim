@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/Version-0.3.1-orange?style=for-the-badge" alt="Version">
 
 **Your pocket IDE built on Neovim**  
-*Minimal. Fast. Fully Configurable. Ready to Code.*
+*Maximum with Minimum Space. Fast. Fully Configurable. Ready to Code.*
 
 [Installation](#-installation) • [Features](#-features) • [Documentation](#-documentation) • [Contributing](#-contributing)
 
@@ -114,7 +114,7 @@ cd ~/.config
 mkdir -p nvim
 
 # Download and install ArchVim (Latest Release)
-curl -L -o ArchVim_v0.3.1.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.1/ArchVim_v0.3.1.zip"
+curl -L -o ArchVim_v0.3.1.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.1/ArchVim_v0.3.2.zip"
 
 # Verify download
 ls -lh ArchVim_v0.3.1.zip
@@ -128,6 +128,7 @@ rm ArchVim_v0.3.1.zip
 # Launch Neovim
 nvim
 ```
+> [!IMPORTANT] : Make sure that the Release or ArchVim.zip version must match your desired and avilable version.  
 
 ### First Launch
 
