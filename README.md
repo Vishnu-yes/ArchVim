@@ -86,14 +86,17 @@ rm ArchVim.zip
 cd ~/.config
 mkdir -p nvim
 
-# Download the latest release and save it as ArchVim.zip
-curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3/ArchVim.zip"
+# Remeber this structure is valid only for Release Box files 
+curl -L -o ArchVim_v0.3.1.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.1/ArchVim_v0.3.1.zip"
 
-# Unzip to nvim config folder
-unzip -o ArchVim.zip -d nvim
+# Verify If it Exists
+ls -lh ArchVim_v0.3.1.zip
+
+# Unzip 
+unzip -o ArchVim_v0.3.1.zip -d .
 
 # Remove the zip file
-rm ArchVim.zip
+rm ArchVim_v0.3.1.zip
 ```
 
 
