@@ -128,6 +128,73 @@ rm ArchVim_v0.3.1.zip
 # Launch Neovim
 nvim
 ```
+
+> [!IMPORTANT]
+> This is safe Install and I recommend it!
+```bash
+# Make Folder like
+mkdir -p ~/.config/avim
+
+# Navigate
+cd ~/.config/avim
+
+# Download the Latest one with
+# The structure is
+# curl -L -o TheNameYouGave.zip "https:/github.com/Vishnu-yes/ArchVim/releases/downlaod/Your_Desired_Tag_Choice/Your_Desired_Tag_Zip_File_Name.zip"
+
+curl -L -o ArchVim_v0.3.2.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip"
+
+# Unzip it
+# The structure is
+# unzip -o TheNameYouGave.zip
+unzip -o ArchVim_v0.3.2.zip -d .
+
+# Delete the Zip after Installing it
+cd ~/.config/avim
+rm NameOfTheZip
+```
+
+```bash
+# Launch Temporary with
+NVIM_APPNAME=avim nvim
+```
+
+> [!NOTE]
+> This is for Bash Shell
+
+# Launch Permanently with this 
+```bash
+# Launch Permanently with
+echo "alias avim='NVIM_APPNAME=avim nvim'" >> ~/.bashrc && source ~/.bashrc
+```
+
+> [!NOTE]
+> This is for Zsh Shell
+
+# Launch Permanently with this 
+```bash
+# Launch Permanently with
+echo "alias avim='NVIM_APPNAME=avim nvim'" >> ~/.zshrc && source ~/.zshrc
+```
+
+
+
+
+> [!IMPORTANT]
+> Safe Delete all Footprints.
+```bash
+# Remove the configuration
+rm -rf ~/.config/nvim_test
+
+# Remove plugin data and cache
+rm -rf ~/.local/share/nvim_test
+
+# Remove state files
+rm -rf ~/.local/state/nvim_test
+
+# Remove cache files
+rm -rf ~/.cache/nvim_test
+```
 > [!IMPORTANT]
 > Make sure that the Release or ArchVim.zip version must match your desired and avilable version.  
 
