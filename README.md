@@ -2,20 +2,31 @@
 
 # 🚀 ArchVim
 
-<img src="https://img.shields.io/badge/ArchVim-Neovim-blue?style=for-the-badge&logo=neovim" alt="ArchVim">
-<img src="https://img.shields.io/badge/License-GPLv3-green?style=for-the-badge" alt="License">
-<img src="https://img.shields.io/badge/Made%20with-Lua-FFDD00?style=for-the-badge&logo=lua" alt="Lua">
-<img src="https://img.shields.io/badge/Version-0.3.1-orange?style=for-the-badge" alt="Version">
+<p align="center">
+  <img src="https://img.shields.io/badge/ArchVim-Neovim-blue?style=for-the-badge&logo=neovim" alt="ArchVim">
+  <img src="https://img.shields.io/badge/License-GPLv3-green?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/Made%20with-Lua-FFDD00?style=for-the-badge&logo=lua" alt="Lua">
+  <img src="https://img.shields.io/badge/Version-0.3.2-orange?style=for-the-badge" alt="Version">
+</p>
 
-**Your pocket IDE built on Neovim**  
-*Maximum with Minimum Space. Fast. Fully Configurable. Ready to Code.*
+### ⚡ Your Pocket IDE Built on Neovim
 
-[Installation](#-installation) • [Features](#-features) • [Documentation](#-documentation) • [Contributing](#-contributing)
+*Maximum Power. Minimum Space. Blazing Fast. Fully Configurable.*
+
+<p align="center">
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#%EF%B8%8F-keybindings">Keybindings</a> •
+  <a href="#-contributing">Contributing</a>
+</p>
 
 ---
 
-![ArchVim Screenshot](https://github.com/user-attachments/assets/37789dfb-064d-4a61-b3ba-7ea2e287f45b)
-![ArchVim Dashboard](https://github.com/user-attachments/assets/3daed5ea-5ee8-45dc-9c7b-4061645e3b8f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/37789dfb-064d-4a61-b3ba-7ea2e287f45b" alt="ArchVim Screenshot" width="45%">
+  <img src="https://github.com/user-attachments/assets/3daed5ea-5ee8-45dc-9c7b-4061645e3b8f" alt="ArchVim Dashboard" width="45%">
+</p>
 
 </div>
 
@@ -23,11 +34,11 @@
 
 ## 🎯 What is ArchVim?
 
-ArchVim transforms Neovim into a complete IDE experience while maintaining the speed and elegance of a terminal-based editor. Inspired by the **Arch Linux philosophy**, ArchVim gives you full control without sacrificing convenience.
-> [!NOTE]
-> **"Almost all IDE functionality using just commands and the spacebar."**
+**ArchVim** transforms Neovim into a complete IDE experience while maintaining terminal-level speed and elegance. Inspired by the **Arch Linux philosophy** of simplicity and user control, ArchVim delivers power without complexity.
 
-Whether you're coding on a desktop workstation or a mobile device via Termux, ArchVim delivers a consistent, powerful development environment that fits in your pocket.
+> 💡 **"Almost all IDE functionality using just commands and the spacebar."**
+
+Perfect for developers who code anywhere—from desktop workstations to mobile devices via Termux. Your development environment fits in your pocket and follows you everywhere.
 
 ---
 
@@ -35,50 +46,50 @@ Whether you're coding on a desktop workstation or a mobile device via Termux, Ar
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🎨 Modern UI/UX
-- **Beautiful Dashboard** with quick actions
-- **Statusline & Bufferline** for efficient navigation
-- **Notification System** for clear feedback
-- **Git Integration** with visual diff indicators
-- **Gruvbox Dark Hard** theme by default
-- **Nerd Fonts** preinstalled for perfect icons
+### 🎨 **Modern UI/UX**
+- ✅ Beautiful dashboard with quick actions
+- ✅ Smart statusline & bufferline
+- ✅ Elegant notification system
+- ✅ Git integration with visual indicators
+- ✅ Gruvbox Dark Hard theme (+ 67 more!)
+- ✅ Nerd Fonts preinstalled
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ⚡ Performance & Power
-- **Lightweight**: Only ~6 MB footprint
-- **Lazy Loading**: Plugins load on demand
-- **LSP Support**: Preconfigured language servers
-- **Treesitter**: Advanced syntax highlighting
-- **Telescope**: Fuzzy finding for everything
-- **Session Management**: Pick up where you left off
+### ⚡ **Performance**
+- 🚀 Only ~6 MB footprint
+- 🚀 Lazy loading for instant startup
+- 🚀 Preconfigured LSP servers
+- 🚀 Treesitter syntax highlighting
+- 🚀 Telescope fuzzy finding
+- 🚀 Auto-save session management
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🛠️ Developer Tools
-- **Mason**: Easy LSP/DAP/Linter installation
-- **Autocompletion**: Intelligent code completion
-- **Git Integration**: Built-in Git workflow
-- **File Explorer**: Tree-based navigation
-- **Terminal**: Integrated terminal support
-- **Snippets**: Code snippet expansion
+### 🛠️ **Developer Tools**
+- 🔧 Mason for easy LSP/DAP/Linter setup
+- 🔧 Intelligent code completion
+- 🔧 Built-in Git workflow
+- 🔧 Tree-based file explorer
+- 🔧 Integrated terminal
+- 🔧 Code snippet expansion
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🌍 Cross-Platform
-- **Desktop**: Full-featured on Linux/macOS/Windows
-- **Termux**: Optimized for mobile coding
-- **Portable**: Carry your IDE anywhere
-- **Consistent**: Same config everywhere
-- **Customizable**: Adapt to your workflow
-- **Extensible**: Add any Neovim plugin
+### 🌍 **Cross-Platform**
+- 🌐 Full-featured on Linux/macOS/Windows
+- 🌐 Optimized for Termux (mobile coding)
+- 🌐 Portable—carry your IDE anywhere
+- 🌐 Consistent config everywhere
+- 🌐 Fully customizable
+- 🌐 Plugin ecosystem ready
 
 </td>
 </tr>
@@ -88,145 +99,124 @@ Whether you're coding on a desktop workstation or a mobile device via Termux, Ar
 
 ## 📋 Requirements
 
-| Component | Version | Notes |
-|-----------|---------|-------|
-| **Neovim** | ≥ 0.11.4 | Required for core functionality |
-| **Git** | Latest | For cloning and plugin management |
-| **Nerd Font** | Included | Preinstalled, but can use custom fonts |
-| **Node.js** | ≥ 14.x | Optional, for some LSP servers |
-| **Python** | ≥ 3.8 | Optional, for Python LSP support |
+| Component | Version | Purpose |
+|-----------|---------|---------|
+| **Neovim** | ≥ 0.11.4 | Core editor functionality |
+| **Git** | Latest | Plugin management & version control |
+| **Nerd Font** | Included | Icons and glyphs (preinstalled) |
+| **Node.js** | ≥ 14.x | Optional - for some LSP servers |
+| **Python** | ≥ 3.8 | Optional - for Python LSP |
 
 ---
 
-## 🚀 Installation
+## 🚀 Quick Start
 
-### Quick Install
+### One-Line Install
+
+```bash
+cd ~/.config && mkdir -p nvim && curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip" && unzip -o ArchVim.zip -d nvim && rm ArchVim.zip && nvim
+```
+
+### Post-Install Setup
+
+1. **Wait for plugins to install** (1-2 minutes on first launch)
+2. **Install LSP servers**: Run `:Mason` and select your languages
+3. **Start coding!** 🎉
+
+---
+
+## 📦 Installation
+
+### Method 1: Quick Install (Replaces Existing Config)
 
 ```bash
 # Backup existing configuration (recommended)
 mv ~/.config/nvim ~/.config/nvim.backup
 
-# Or remove if not needed
-# rm -rf ~/.config/nvim
-
 # Create nvim directory
-cd ~/.config
-mkdir -p nvim
+mkdir -p ~/.config/nvim && cd ~/.config/nvim
 
-# Download and install ArchVim (Latest Release)
-curl -L -o ArchVim_v0.3.1.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.1/ArchVim_v0.3.2.zip"
+# Download latest release
+curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip"
 
-# Verify download
-ls -lh ArchVim_v0.3.1.zip
+# Extract and clean up
+unzip -o ArchVim.zip && rm ArchVim.zip
 
-# Extract
-unzip -o ArchVim_v0.3.1.zip -d .
-
-# Clean up
-rm ArchVim_v0.3.1.zip
-
-# Launch Neovim
+# Launch ArchVim
 nvim
 ```
 
-> [!IMPORTANT]
-> This is safe Install and I recommend it!
-```bash
-# Make Folder like
-mkdir -p ~/.config/avim
+> ⚠️ **Warning**: This replaces your existing Neovim configuration. Back it up first!
 
-# Navigate
-cd ~/.config/avim
+---
 
-# Download the Latest one with
-# The structure is
-# curl -L -o TheNameYouGave.zip "https:/github.com/Vishnu-yes/ArchVim/releases/downlaod/Your_Desired_Tag_Choice/Your_Desired_Tag_Zip_File_Name.zip"
+### Method 2: Safe Install (Parallel Installation)
 
-curl -L -o ArchVim_v0.3.2.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip"
-
-# Unzip it
-# The structure is
-# unzip -o TheNameYouGave.zip
-unzip -o ArchVim_v0.3.2.zip -d .
-
-# Delete the Zip after Installing it
-cd ~/.config/avim
-rm NameOfTheZip
-```
+Test ArchVim without touching your existing Neovim setup:
 
 ```bash
-# Launch Temporary with
+# Create separate directory
+mkdir -p ~/.config/avim && cd ~/.config/avim
+
+# Download latest release
+curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip"
+
+# Extract and clean up
+unzip -o ArchVim.zip && rm ArchVim.zip
+
+# Launch temporarily
 NVIM_APPNAME=avim nvim
 ```
 
-> [!NOTE]
-> This is for Bash Shell
+#### Make It Permanent
 
-# Launch Permanently with this 
+**For Bash:**
 ```bash
-# Launch Permanently with
 echo "alias avim='NVIM_APPNAME=avim nvim'" >> ~/.bashrc && source ~/.bashrc
 ```
 
-> [!NOTE]
-> This is for Zsh Shell
-
-# Launch Permanently with this 
+**For Zsh:**
 ```bash
-# Launch Permanently with
 echo "alias avim='NVIM_APPNAME=avim nvim'" >> ~/.zshrc && source ~/.zshrc
 ```
 
+Now use `avim` command to launch ArchVim anytime!
 
+---
 
+### 🗑️ Clean Uninstall
 
-> [!IMPORTANT]
-> Safe Delete all Footprints.
+Remove all traces of ArchVim:
+
 ```bash
-# Remove the configuration
-rm -rf ~/.config/nvim_test
+# Remove configuration
+rm -rf ~/.config/avim
 
-# Remove plugin data and cache
-rm -rf ~/.local/share/nvim_test
+# Remove plugin data
+rm -rf ~/.local/share/avim
 
 # Remove state files
-rm -rf ~/.local/state/nvim_test
+rm -rf ~/.local/state/avim
 
-# Remove cache files
-rm -rf ~/.cache/nvim_test
+# Remove cache
+rm -rf ~/.cache/avim
 ```
-> [!IMPORTANT]
-> Make sure that the Release or ArchVim.zip version must match your desired and avilable version.  
 
-### First Launch
+---
 
-On first startup, ArchVim will:
-1. ✅ Automatically install all plugins via Lazy.nvim
+## 🔧 First Launch
+
+> ⏱️ **First startup takes 1-2 minutes** while plugins install automatically.
+
+ArchVim will automatically:
+1. ✅ Install all plugins via Lazy.nvim
 2. ✅ Set up Treesitter parsers
-3. ✅ Configure Mason for LSP installation
-4. ⚠️ Require manual LSP server installation (see below)
+3. ✅ Configure Mason
 
-> [!IMPORTANT]
-> First launch may take 1-2 minutes depending on your system and internet connection. On lower-end devices, Neovim may appear frozen—this is normal. Just wait for plugin installation to complete.
+**You need to manually:**
+- Install LSP servers via `:Mason` (pick your languages)
 
-### Installing LSP Servers
-
-After installation, install language servers for your preferred languages:
-
-```vim
-:Mason
-```
-
-Then select and install servers like:
-- `lua-language-server` (Lua)
-- `pyright` (Python)
-- `typescript-language-server` (JavaScript/TypeScript)
-- `rust-analyzer` (Rust)
-- `clangd` (C/C++)
-
-> [IMPORTANT]
-> If Mason says device unsupported on specific things , then go for your System Binaries
-> E.g Clang/Clangd for Aarch/Arm 64 
+> ⚠️ **On low-end devices**, Neovim may appear frozen during installation—this is normal. Just wait!
 
 ---
 
@@ -234,110 +224,99 @@ Then select and install servers like:
 
 ```
 ~/.config/nvim/
-├── init.lua                 # Entry point & initialization
-├── lazy-lock.json          # Plugin version lockfile
+├── init.lua                 # Entry point
+├── lazy-lock.json          # Plugin versions
 └── lua/
     └── user/
-        ├── Basics/         # Core keymaps, options & utilities
-        ├── UI/             # Statusline, bufferline, dashboard, notifications
-        ├── config/         # Plugin configurations (LSP, Telescope, Treesitter)
-        ├── Inbuilt/        # Internal Lua helpers & utilities
+        ├── Basics/         # Keymaps, options, utilities
+        ├── UI/             # Statusline, bufferline, dashboard
+        ├── config/         # LSP, Telescope, Treesitter configs
+        ├── Inbuilt/        # Internal Lua helpers
         ├── Fonts/          # Preinstalled Nerd Fonts
-        └── Read/           # Documentation & guides
+        └── Read/           # Documentation
 ```
 
 ---
 
-## ⌨️ Key Bindings
+## ⌨️ Keybindings
 
 ### Leader Keys
-
-ArchVim uses an extended leader key system:
 
 | Key | Purpose | Example |
 |-----|---------|---------|
 | `<Space>` | **Global leader** | `<Space>ff` - Find files |
-| `'` | **Local leader** | `'d` - Local diagnostics |
+| `'` | **Local leader** | `'d` - Diagnostics |
 
-### Essential Keymaps
+---
 
-<details>
-<summary><b>File Navigation (Telescope)</b></summary>
-
-| Keymap | Action |
-|--------|--------|
-| `<Space>ff` | Find files |
-| `<Space>fg` | Live grep |
-| `<Space>fb` | Browse buffers |
-| `<Space>fh` | Help tags |
-| `<Space>fo` | Old files |
-
-</details>
-
-<details>
-<summary><b>LSP Operations</b></summary>
+### 📁 File Navigation (Telescope)
 
 | Keymap | Action |
 |--------|--------|
-| `gd` | Go to definition |
-| `gr` | References |
-| `K` | Hover documentation |
-| `<Space>ca` | Code actions |
-| `<Space>rn` | Rename |
+| `<Space>ff` | 🔍 Find files |
+| `<Space>fg` | 🔎 Live grep (search in files) |
+| `<Space>fb` | 📄 Browse buffers |
+| `<Space>fh` | ❓ Help tags |
+| `<Space>fo` | 🕒 Recently opened files |
 
-</details>
+---
 
-<details>
-<summary><b>Buffer & Window Management</b></summary>
-
-| Keymap | Action |
-|--------|--------|
-| `<Tab>` | Next buffer |
-| `<S-Tab>` | Previous buffer |
-| `<Space>bd` | Close buffer |
-| `<C-h/j/k/l>` | Navigate windows |
-
-</details>
-
-<details>
-<summary><b>Git Integration</b></summary>
+### 💻 LSP Operations
 
 | Keymap | Action |
 |--------|--------|
-| `<Space>gs` | Git status |
-| `<Space>gc` | Git commits |
-| `<Space>gb` | Git branches |
-| `[c` | Previous hunk |
-| `]c` | Next hunk |
+| `gd` | 📍 Go to definition |
+| `gr` | 🔗 Find references |
+| `K` | 📖 Hover documentation |
+| `<Space>ca` | ⚡ Code actions |
+| `<Space>rn` | ✏️ Rename symbol |
 
-</details>
-> [!IMPORTANT]
-> Full keymap reference available in `lua/user/Basics/keymaps.lua`
+---
+
+### 🪟 Buffer & Window Management
+
+| Keymap | Action |
+|--------|--------|
+| `<Tab>` | ➡️ Next buffer |
+| `<S-Tab>` | ⬅️ Previous buffer |
+| `<Space>bd` | ❌ Close buffer |
+| `<C-h/j/k/l>` | ↔️ Navigate windows |
+
+---
+
+### 🔀 Git Integration
+
+| Keymap | Action |
+|--------|--------|
+| `<Space>gs` | 📊 Git status |
+| `<Space>gc` | 📝 Git commits |
+| `<Space>gb` | 🌿 Git branches |
+| `[c` | ⬆️ Previous hunk |
+| `]c` | ⬇️ Next hunk |
+
+> 📚 **Full keymap reference**: `lua/user/Basics/keymaps.lua`
 
 ---
 
 ## 🎨 Customization
 
-### Changing Theme
+### 🌈 Change Theme
 
-Edit `user/UI/theme.lua`:
+Edit `lua/user/UI/theme.lua`:
 
 ```lua
--- Available themes: gruvbox, tokyonight, catppuccin, nord, etc.
-vim.cmd("colorscheme gruvbox")
+-- Choose from 68 preinstalled themes!
+vim.cmd("colorscheme gruvbox")  -- or tokyonight, catppuccin, nord, etc.
 ```
-> [!NOTE]
-> Total themes are around 68
-> You will have 68 Themes automatically on download
 
+---
 
-### Adding Plugins
+### 🔌 Add Plugins
 
-Edit `~/.config/nvim/lua/user/Basic/plugins.lua` and add your plugin:
+Edit `lua/user/Basics/plugins.lua`:
 
 ```lua
 return {
-  -- Your new plugin
   {
     "author/plugin-name",
     config = function()
@@ -347,9 +326,11 @@ return {
 }
 ```
 
-Then run `:Lazy sync` to install.
+Then run `:Lazy sync`
 
-### Modifying Keymaps
+---
+
+### ⌨️ Modify Keymaps
 
 Edit `lua/user/Basics/keymaps.lua`:
 
@@ -358,40 +339,49 @@ local map = vim.keymap.set
 
 map("n", "<your-key>", "<your-command>", { desc = "Description" })
 ```
-> Better to use whick key wk.add{}
-> For Function/Local module take a look at Inbuilt/ 
+
+> 💡 **Pro tip**: Use `wk.add{}` for which-key integration. Check `Inbuilt/` for helper functions.
+
 ---
 
 ## 🐛 Troubleshooting
 
 <details>
-<summary><b>ArchVim freezes on first launch</b></summary>
+<summary><b>❄️ ArchVim freezes on first launch</b></summary>
 
-This is normal behavior during plugin installation, especially on lower-end devices. Wait 2-5 minutes. If it persists, restart Neovim and run `:Lazy restore`.
+**Normal behavior** during plugin installation, especially on slower devices.
+
+**Solution**: Wait 2-5 minutes. If stuck, restart Neovim and run `:Lazy restore`
 
 </details>
 
 <details>
-<summary><b>LSP not working</b></summary>
+<summary><b>🔴 LSP not working</b></summary>
 
-1. Check if LSP server is installed: `:Mason`
-2. Verify LSP is attached: `:LspInfo`
-3. Check logs: `:LspLog`
+**Check these steps:**
+1. Verify LSP installed: `:Mason`
+2. Check LSP status: `:LspInfo`
+3. View logs: `:LspLog`
 4. Restart LSP: `:LspRestart`
 
 </details>
 
 <details>
-<summary><b>Icons not displaying correctly</b></summary>
+<summary><b>🔣 Icons not displaying</b></summary>
 
-Ensure your terminal uses a Nerd Font. Preinstalled fonts are in `lua/user/Fonts/`. Configure your terminal to use one of these fonts.
+**Cause**: Terminal not using a Nerd Font
+
+**Solution**: Configure your terminal to use a font from `lua/user/Fonts/`
 
 </details>
 
 <details>
-<summary><b>Plugins not loading</b></summary>
+<summary><b>⚠️ Plugins not loading</b></summary>
 
-Run `:Lazy check` and `:Lazy update`. If issues persist, delete `~/.local/share/nvim` and restart Neovim.
+**Try these fixes:**
+1. Run `:Lazy check`
+2. Update plugins: `:Lazy update`
+3. Nuclear option: Delete `~/.local/share/nvim` and restart Neovim
 
 </details>
 
@@ -399,93 +389,101 @@ Run `:Lazy check` and `:Lazy update`. If issues persist, delete `~/.local/share/
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+We love contributions! Here's how to help:
 
-### Reporting Issues
+### 🐞 Report Issues
 
 Open an issue with:
-- ArchVim version
-- Neovim version (`nvim --version`)
-- Steps to reproduce
-- Expected vs actual behavior
+- ✅ ArchVim version
+- ✅ Neovim version (`nvim --version`)
+- ✅ Steps to reproduce
+- ✅ Expected vs actual behavior
 
-### Submitting Changes
+---
+
+### 🔨 Submit Changes
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
+2. Create branch: `git checkout -b feature-name`
+3. Make changes
 4. Test thoroughly
-5. Create a release package:
+5. Create release package:
 
 ```bash
 cd ~/.config/nvim
 zip -r ~/ArchVim.zip ./*
 ```
 
-6. Submit a pull request with:
-   - Clear description of changes
-   - Why the change is needed
-   - Testing performed
-     
-> [!IMPORTANT]
-> **Please contact the maintainer before submitting major changes to discuss the approach.**
+6. Submit pull request with:
+   - Clear description
+   - Rationale for changes
+   - Testing details
+
+> 📧 **Important**: Contact the maintainer before major changes to discuss approach.
 
 ---
 
 ## 📚 Documentation
 
-- **[Quick Start Guide](lua/user/Read/)** - Get started in 5 minutes
-- **[Keybindings Reference](lua/user/Basics/keymaps.lua)** - Complete keymap list
-- **[Plugin Documentation](lua/user/config/)** - Individual plugin configs
-- **[Troubleshooting](lua/user/Read/)** - Common issues & solutions
+| Resource | Description |
+|----------|-------------|
+| **[Quick Start](lua/user/Read/)** | Get started in 5 minutes |
+| **[Keybindings](lua/user/Basics/keymaps.lua)** | Complete keymap reference |
+| **[Plugin Docs](lua/user/config/)** | Individual plugin configurations |
+| **[Troubleshooting](lua/user/Read/)** | Common issues & solutions |
 
 ---
 
 ## 🙏 Acknowledgments
 
-ArchVim is built on the shoulders of giants:
+ArchVim stands on the shoulders of giants:
 
-- [Neovim](https://neovim.io/) - The extensible editor
-- [Lazy.nvim](https://github.com/folke/lazy.nvim) - Plugin management
-- [Mason.nvim](https://github.com/williamboman/mason.nvim) - LSP installer
-- [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
-- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting
-- The entire Neovim community
+- [**Neovim**](https://neovim.io/) - The hyperextensible editor
+- [**Lazy.nvim**](https://github.com/folke/lazy.nvim) - Modern plugin manager
+- [**Mason.nvim**](https://github.com/williamboman/mason.nvim) - LSP/DAP installer
+- [**Telescope.nvim**](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
+- [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax magic
+- **The entire Neovim community** - For endless inspiration
 
 ---
 
 ## 📜 License
 
-ArchVim is released under the **[GNU General Public License v3.0](LICENSE)**.
+**GNU General Public License v3.0** • [View License](LICENSE)
 
 ```
 Copyright (C) 2024 ArchVim Contributors
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Free software: redistribute and/or modify under GPLv3 terms.
+This program comes with ABSOLUTELY NO WARRANTY.
 ```
-
----
-
-## 🌟 Star History
-
-If you find ArchVim useful, consider giving it a star! ⭐
 
 ---
 
 <div align="center">
 
-### 💖 Made with Love and Lua
+## 🌟 Star History
 
-**[Report Bug](https://github.com/Vishnu-yes/ArchVim/issues)** • **[Request Feature](https://github.com/Vishnu-yes/ArchVim/issues)** • **[Discussions](https://github.com/Vishnu-yes/ArchVim/discussions)**
+**If ArchVim makes your life easier, give us a star!** ⭐
 
-*Empowering developers, one keystroke at a time.*
+[![Star History Chart](https://api.star-history.com/svg?repos=Vishnu-yes/ArchVim&type=Date)](https://star-history.com/#Vishnu-yes/ArchVim&Date)
 
 ---
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/yourusername)
-[![GitHub followers](https://img.shields.io/github/followers/Vishnu-yes?style=social)](https://github.com/Vishnu-yes)
+### 💖 Made with Love & Lua
+
+**[🐛 Report Bug](https://github.com/Vishnu-yes/ArchVim/issues)** • **[✨ Request Feature](https://github.com/Vishnu-yes/ArchVim/issues)** • **[💬 Discussions](https://github.com/Vishnu-yes/ArchVim/discussions)**
+
+---
+
+<p align="center">
+  <i>Empowering developers, one keystroke at a time.</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Vishnu-yes">
+    <img src="https://img.shields.io/github/followers/Vishnu-yes?style=social" alt="GitHub followers">
+  </a>
+</p>
 
 </div>
