@@ -13,10 +13,10 @@
 
 *Maximum Power. Minimum Space. Blazing Fast. Fully Configurable.*
 
-## ArchVim Demo
-Watch a quick demo of my minimal Neovim setup for C++ coding:
-
-[![Watch the demo](https://i.redd.it/your_thumbnail_id.jpg)](https://www.reddit.com/r/neovim/comments/1nz8o0p/my_minimum_setup_for_coding_full_of_everything/)
+<video width="720" controls>
+  <source src="video_20251006_085638_edit.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
