@@ -13,6 +13,8 @@
 
 *Maximum Power. Minimum Space. Blazing Fast. Fully Configurable.*
 
+Check out a demo of ArchVim in action: [Reddit Video Demo](https://www.reddit.com/r/neovim/comments/1nz8o0p/my_minimum_setup_for_coding_full_of_everything/)
+
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-features">Features</a> •
