@@ -13,10 +13,8 @@
 
 *Maximum Power. Minimum Space. Blazing Fast. Fully Configurable.*
 
-<video width="720" controls>
-  <source src="video_20251006_085638_edit.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/b0ed7f7c-c14c-487d-aef4-e417c9ecc921
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
