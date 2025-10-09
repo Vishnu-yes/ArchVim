@@ -9,9 +9,9 @@
   <img src="https://img.shields.io/badge/Version-0.3.2-orange?style=for-the-badge" alt="Version">
 </p>
 
-### ⚡ Your Pocket IDE Built on Neovim
+### ⚡ The Best IDE to Have!
 
-*Maximum Power. Minimum Space. Blazing Fast. Fully Configurable.*
+#### 🔥 Almost Max Potential of a IDE , Powerful Commands , Full Workspace.
 
 
 https://github.com/user-attachments/assets/b0ed7f7c-c14c-487d-aef4-e417c9ecc921
@@ -37,7 +37,11 @@ https://github.com/user-attachments/assets/b0ed7f7c-c14c-487d-aef4-e417c9ecc921
 
 ## 🎯 What is ArchVim?
 
-**ArchVim** transforms Neovim into a complete IDE experience while maintaining terminal-level speed and elegance. Inspired by the **Arch Linux philosophy** of simplicity and user control, ArchVim delivers power without complexity.
+**Arch Vim is fully made on Termux and is for all Architectures , Is actualy maintained with the Help of Claude(mostly) and Chatgpt(Partly)**
+**ArchVim** transforms Neovim into a complete IDE experience while maintaining terminal-level speed and elegance.
+Inspired By Vim Nvim Linux and Termux!
+
+
 
 > 💡 **"Almost all IDE functionality using just commands and the spacebar."**
 
