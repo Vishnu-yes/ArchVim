@@ -140,7 +140,7 @@ mv ~/.config/nvim ~/.config/nvim.backup
 mkdir -p ~/.config/nvim && cd ~/.config/nvim
 
 # Download latest release
-curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip"
+curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.5/ArchVim_v0.3.5.zip"
 
 # Extract and clean up
 unzip -o ArchVim.zip && rm ArchVim.zip
@@ -162,7 +162,7 @@ Test ArchVim without touching your existing Neovim setup:
 mkdir -p ~/.config/avim && cd ~/.config/avim
 
 # Download latest release
-curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.2/ArchVim_v0.3.2.zip"
+curl -L -o ArchVim.zip "https://github.com/Vishnu-yes/ArchVim/releases/download/AV0.3.5/ArchVim_v0.3.5.zip"
 
 # Extract and clean up
 unzip -o ArchVim.zip && rm ArchVim.zip
